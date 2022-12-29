@@ -1,0 +1,5 @@
+@use "variable" as v;
+
+body{
+    font-family: v.$primary-font;
+}

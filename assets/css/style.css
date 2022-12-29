@@ -1,16 +1,21 @@
+h1 {
+  color: red;
+  text-align: center;
+}
+
 body {
   font-family: Poppins;
 }
 
 .weather-card {
-  background-color: gray;
+  background-color: rgb(28, 18, 102);
   border-radius: 20px;
-  color: rgb(255, 250, 244);
+  color: rgb(237, 237, 237);
   display: flex;
 }
 .weather-card > .left {
   flex: 2;
-  background-image: url(../img/bg.jpg);
+  background-image: url("../img/bg.jpg");
   background-size: cover;
   background-position: center center;
   border-radius: 20px;
@@ -22,7 +27,7 @@ body {
 }
 .weather-card > .left::before {
   content: "";
-  background-color: rgba(23, 255, 54, 0.5);
+  background-color: rgba(153, 38, 195, 0.5);
   position: absolute;
   top: 0;
   left: 0;
@@ -32,7 +37,7 @@ body {
 }
 .weather-card > .left h2, .weather-card > .left h4, .weather-card > .left h5 {
   margin: 0;
-  text-shadow: 0 0 5px rgb(70, 70, 70);
+  text-shadow: 0 0 5px rgb(28, 18, 102);
 }
 .weather-card > .left .top {
   z-index: 3;
@@ -100,5 +105,5 @@ body {
   padding: 0.5rem;
   border-radius: 20px;
   cursor: pointer;
-  background-image: linear-gradient(60deg, rgb(225, 255, 213), rgb(23, 255, 54));
+  background-image: linear-gradient(60deg, rgba(153, 38, 195, 0.5), rgb(153, 38, 195));
 }/*# sourceMappingURL=style.css.map */
